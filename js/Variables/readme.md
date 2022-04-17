@@ -13,7 +13,9 @@
 * Whereas you cannot start with a **number** like 2a; 5x; etc.
 
 * Initialisation: means giving it value for the first time:
+
 => Declare the variable first, then initialise it.
+
 => Declare and initialise with a single statement.
 
 * Variables are **case-sensitive**
