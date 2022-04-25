@@ -5,3 +5,5 @@ function foo(){
     console.log(a)
 }
 foo()
+
+// check asterisk (*) problems in loops chapter thats imp.
