@@ -52,6 +52,15 @@ variable), most often called i
 
 * In the increment part, you can increase i by 1, such as i++
 
+var punishment = '';
+
+for (var i = 0; i < 100; i++) {
+
+punishment += 'I will never do this again, ';
+
+}
+
+
 
 
 
