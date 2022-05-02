@@ -25,3 +25,20 @@ expressions inside a string.
 
 * All values become true when converted to a Boolean, with the exception of the following
 six falsy values:- **""(empty string), null, undefined, 0(zero), NaN, false.**
+
+
+## OPERATORS:
+
+* Arithmetic operators: +, -, *, /, and %
+
+* Increment operators: ++ and -
+
+* Assignment operators: =, +=, -=, *=, /=, and %=
+
+* Special operators: typeof and delete
+
+* Logical operators: &&, ||, and !
+
+* Comparison operators: ==, ===, !=, !==, <, >,=, and <=
+
+* The ternary operator: ?
