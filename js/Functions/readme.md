@@ -133,4 +133,27 @@ console.log( a ); // 2
 console.log( a ); // 1
 
 
+## Functions Are Data(Function Expression):
+
+* Functions in JavaScript are actually data.
+
+* This means that you can create a function and assign it to a variable,as follows:
+
+var f = function () {
+
+return 1;
+
+};
+
+
+## Function Arguments:
+
+* You can create functions that are flexible about the number of parameters using 'arguments' keyword.
+
+* It gets created automatically inside each function.
+
+* Arguments is not an array, but an array like object.
+
+
+
 
