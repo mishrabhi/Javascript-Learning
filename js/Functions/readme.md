@@ -35,3 +35,102 @@ explicitly, it implicitly returns the value undefined.
 > result;
 
 3
+
+## Predefined Functions:
+
+* There are a number of functions that are built into the JavaScript engine and are available for you to use:-
+
+1. parseInt(): The parseInt() function takes any type of input (most often a string) and tries to make an integer out of it.If it fails it returns Nan.
+
+2. parseFloat(): The parseFloat() function is similar to the parseInt() function, but it also looks for decimals when trying to figure out a number from your input.
+
+3. isNaN(): Using isNaN(), you can check if an input value is a valid number that can safely be used in arithmetic operations.
+
+4. isFinite(): The isFinite() function checks whether the input is a number that is neither Infinity nor NaN.
+
+5. encodeURI()
+
+6. decodeURI()
+
+7. encodeURIComponent()
+
+8. decodeURIComponent()
+
+9. eval()
+
+
+## Scope of variables:
+
+* variable or statement can be acceessed within function only.
+
+* if var declared in inner function, we can access that var only inside that function.
+
+* If declared outside we can access from both sides(local or global space).
+
+var a = 10;
+
+function foo(){
+
+    var b = 20;
+
+    var c = 30;
+
+    console.log(a)  //10
+
+    console.log(b)  //20
+
+    console.log(c)  //30
+    }
+
+foo()
+
+ console.log(a)  //10
+
+ console.log(b)  //not defined
+
+ console.log(c)  //not defined
+
+
+ ## Variable Hoisting:
+
+ * When your JavaScript program execution enters a new function, all the variables declared anywhere in the function are moved, elevated, or hoisted to the top of the function. This is an important concept to keep in mind. Further, only the declaration is hoisted, meaning only the presence of the variable is moved to the top. Any assignments stay where they are.
+
+ var a = 123;
+
+function f() {
+
+var a; // same as: var a = undefined;
+
+alert(a); // undefined
+
+a = 1;
+
+alert(a); // 1
+
+}
+
+
+## Block Scope:
+
+* ES6 introduces the let and const keywords that allow us to declare variables.
+
+* Variables declared with let are block-scoped. They exist only within the current block.
+
+* Variables declared with var are function scoped.
+
+* The following example illustrates the block scope:
+
+var a = 1;
+
+{
+
+let a = 2;
+
+console.log( a ); // 2
+
+}
+
+console.log( a ); // 1
+
+
+

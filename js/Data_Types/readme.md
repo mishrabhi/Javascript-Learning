@@ -31,7 +31,7 @@ six falsy values:- **""(empty string), null, undefined, 0(zero), NaN, false.**
 
 * Arithmetic operators: +, -, *, /, and %
 
-* Increment operators: ++ and -
+* Increment operators: ++ and --
 
 * Assignment operators: =, +=, -=, *=, /=, and %=
 
