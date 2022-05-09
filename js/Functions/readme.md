@@ -155,5 +155,12 @@ return 1;
 * Arguments is not an array, but an array like object.
 
 
+## Callback Function:
+
+* As a function is just like any other data assigned to a variable, it can be defined, copied, and also passed as an argument to other functions.
+
+* When you pass a function, A, to another function, B, and then B executes A, it's often said that A is a callback function.
+
+
 
 
