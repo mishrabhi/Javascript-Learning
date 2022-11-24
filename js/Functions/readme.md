@@ -56,7 +56,13 @@ explicitly, it implicitly returns the value undefined.
 
 8. decodeURIComponent()
 
-9. eval()
+9. eval() : The eval() function takes a string input and executes it as a JavaScript code, as follows:
+
+eval('var ii = 2;');
+
+> ii;
+
+2
 
 
 ## Scope of variables:
@@ -160,6 +166,8 @@ return 1;
 * As a function is just like any other data assigned to a variable, it can be defined, copied, and also passed as an argument to other functions.
 
 * When you pass a function, A, to another function, B, and then B executes A, it's often said that A is a callback function.
+
+* Refer function.js to see an example for callback function.
 
 
 

@@ -1,4 +1,6 @@
-# LOOPS
+# LOOPS:
+
+* Loops allow you to perform repetitive operations with less code.
 
 * In JavaScript, the following are the four types of loops:
 
@@ -8,24 +10,25 @@
 
 3. for loops
 
-### While LOOPS:
+### While LOOP:
 
-* The while loops are the simplest type of iteration. They look like the following:
+* The while statement is followed by a condition in parentheses and a code block in curly
+brackets. As long as the condition evaluates to true, the code block is executed over and over
+again.
+
 
 var i = 0;
 
 while (i < 10) {
 
-i++;
+i++;   //increment/decrement
 
 }
 
-* The while statement is followed by a condition in parentheses and a code block in curly brackets. As long as the condition evaluates to true, the code block is executed over and over again.
 
+### Do While LOOP:
 
-### Do-While LOOPS:
-
-* The do...while loops are a slight variation of while loops. 
+* The do...while loops are a slight variation of while loops.
 
 var i = 0;
 
@@ -35,33 +38,26 @@ i++;
 
 } while (i < 10);
 
-* Here, the do statement is followed by a code block and a condition after the block. This means that the code block is always executed, **at least once**, before the condition is evaluated.
+* Here, the do statement is followed by a code block and a condition after the block. This means
+that the code block is always executed, at least once, before the condition is evaluated.
 
 
-### FOR LOOP:
+### For LOOP:
 
-* **Initialisation:**
-This is the code that is executed before you even enter the loop.
+* Syntax:
 
-* **Increment:** This is the code that is executed after every iteration.
+for(inititalisation; condition; increment/decrement)
+
+      {
+          body
+           }
+
 
 * In the initialization part, you can define a variable (or set the initial value of an existing
-variable), most often called i
+variable), most often called i.
 
 * In the condition part, you can compare i to a boundary value, such as i < 100
 
 * In the increment part, you can increase i by 1, such as i++
-
-var punishment = '';
-
-for (var i = 0; i < 100; i++) {
-
-punishment += 'I will never do this again, ';
-
-}
-
-
-
-
 
 
